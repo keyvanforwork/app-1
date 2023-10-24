@@ -1,14 +1,14 @@
 #include <iostream>
 using namespace std;
 
-double  numberInput() {
-	cout << "Enter a number ";
-	double input{ };
-	cin >> input;
-	return input;
+double add(int a, int b) {
+	return a + b;
 }
 
+
 int main() {
-	cout << "Double number is equal to: " << numberInput() * 2 << "\n";
+	cout << add(3, 7);
 	return 0;
 }
+
+
