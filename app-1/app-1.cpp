@@ -1,13 +1,14 @@
 #include <iostream>
 using namespace std;
 
-void print() {
-	cout << "Print ...\n";
+double  numberInput() {
+	cout << "Enter a number ";
+	double input{ };
+	cin >> input;
+	return input;
 }
 
-
 int main() {
-	cout << "Start main()\n";
-	print();
-	cout << "End main()\n";
+	cout << "Double number is equal to: " << numberInput() * 2 << "\n";
+	return 0;
 }
