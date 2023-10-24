@@ -1,14 +1,13 @@
 #include <iostream>
-#include <string>
 using namespace std;
 
-int main(){
-	cout << "Tell me your name: \n" << " and your age is: ";
-	string name{ };
-	int age{ };
-	cin >> name >> age;
-	cout << name << " is " << age << " years old" << "\n";
-	cout << "Good";
-	return 0;
+void print() {
+	cout << "Print ...\n";
 }
 
+
+int main() {
+	cout << "Start main()\n";
+	print();
+	cout << "End main()\n";
+}
